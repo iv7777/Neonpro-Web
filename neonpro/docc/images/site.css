@@ -1,0 +1,29 @@
+a {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	color: #000000;
+}
+a:link {
+    font-family: Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	text-decoration: none;
+}
+a:hover {
+    font-family: Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	text-decoration: none;
+	color: #00a7f7;
+}
+a:active {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: small;
+	text-decoration: none;
+	color: #00a7f7;
+}
+a:visited {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: small;
+	text-decoration: none;
+}
+.menu {font-size: 10pt; color: #0c871a; }
+html { overflow-x:auto; overflow-y:scroll; }

@@ -1,0 +1,31 @@
+#menu a {
+	font-family: Arial, "ËÎÌו";
+	font-weight: bold;
+	font-size:12px;
+	color:#FFFFFF;
+	text-decoration:none;
+}
+#menu a:hover{
+	color:#f4ff03;
+}
+#menu .left_menu{
+	background-image:url(../images/left_menu.jpg)
+}
+#menu .m_back{
+	background-image:url(../images/back_menu.jpg);
+	text-align:center;
+}
+#menu .m_back_line{
+	width:3px;
+	background-image:url(../images/line_menu.jpg); background-repeat:no-repeat;
+}
+#menu .now{
+	color:#f4ff03;
+}
+#menu #now_t{
+	background-image:url(../images/back_menu_2.jpg);
+	text-align:center;
+}
+#menu #now_t a{
+	color:#FFFF00;
+}

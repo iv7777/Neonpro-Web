@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Sitemap: https://neonpro.hyrite.com/sitemap.xml
+
+
