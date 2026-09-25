@@ -65,7 +65,7 @@
       <dt>Tel</dt><dd><a href="tel:+8675781200188">+86 (757) 81200188</a> (10 lines) — English: extension 335</dd>
       <dt>Hotline</dt><dd><a href="tel:4006608083">400 660 8083</a></dd>
       <dt>Fax</dt><dd>+86 (757) 81200369</dd>
-      <dt>Email</dt><dd><a href="mailto:info-req@hyrite.com">info-req@hyrite.com</a><br><a href="mailto:hyrite@china.com">hyrite@china.com</a></dd>
+      <dt>Email</dt><dd><a class="js-email" data-e="bW9jLmV0aXJ5aEBxZXItb2ZuaQ==" href="#"><span class="email-fallback">email hidden — please enable JavaScript</span></a><br><a class="js-email" data-e="bW9jLmFuaWhjQGV0aXJ5aA==" href="#"><span class="email-fallback">email hidden — please enable JavaScript</span></a></dd>
     </dl>
   </section>
   <section class="office" aria-labelledby="office-us">
@@ -74,7 +74,7 @@
       <dt>Address</dt><dd>252 South 5th Ave, City of Industry, CA 91746, U.S.A.</dd>
       <dt>Tel</dt><dd><a href="tel:+16263698782">(626) 369-8782</a></dd>
       <dt>Fax</dt><dd>(626) 369-8432</dd>
-      <dt>Email</dt><dd><a href="mailto:info-req@hyrite.com">info-req@hyrite.com</a></dd>
+      <dt>Email</dt><dd><a class="js-email" data-e="bW9jLmV0aXJ5aEBxZXItb2ZuaQ==" href="#"><span class="email-fallback">email hidden — please enable JavaScript</span></a></dd>
     </dl>
   </section>
 </div>

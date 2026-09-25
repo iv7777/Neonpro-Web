@@ -27,11 +27,22 @@
   var cat = document.querySelector('.catnav');
   if (cat) toggler(cat.querySelector('.catnav-toggle'), cat, 'is-open');
 
+  // Email addresses are stored reversed + base64 so they never appear in the page source
+  function decode(s) {
+    try { return atob(s).split('').reverse().join(''); } catch (e) { return ''; }
+  }
+  Array.prototype.forEach.call(document.querySelectorAll('.js-email'), function (a) {
+    var addr = decode(a.getAttribute('data-e'));
+    if (!addr) return;
+    a.setAttribute('href', 'mai' + 'lto:' + addr);
+    a.textContent = addr;
+  });
+
   // Feedback form: compose an email in the visitor's mail app
   var form = document.getElementById('feedback-form');
   if (!form) return;
   var status = document.getElementById('form-status');
-  var recipients = form.getAttribute('data-to');
+  var recipients = form.getAttribute('data-to').split(',').map(decode).join(',');
 
   function value(name) {
     var el = form.elements[name];
@@ -58,7 +69,7 @@
     var company = value('Company_Name');
     var subject = 'NeonPro - Inquiry' + (who ? ' from ' + who : '') + (company ? ' (' + company + ')' : '');
 
-    var href = 'mailto:' + recipients +
+    var href = 'mai' + 'lto:' + recipients +
       '?subject=' + encodeURIComponent(subject) +
       '&body=' + encodeURIComponent(body);
 
