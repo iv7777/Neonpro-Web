@@ -27,6 +27,32 @@
   var cat = document.querySelector('.catnav');
   if (cat) toggler(cat.querySelector('.catnav-toggle'), cat, 'is-open');
 
+  // Back-to-top button: only on pages taller than two screens, shown after scrolling down one screen
+  var topBtn = document.createElement('button');
+  topBtn.type = 'button';
+  topBtn.className = 'to-top';
+  topBtn.setAttribute('aria-label', 'Back to top');
+  topBtn.innerHTML = '<svg viewBox="0 0 20 20" width="20" height="20" aria-hidden="true"><path d="M5 12l5-5 5 5" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>';
+  document.body.appendChild(topBtn);
+  var reduceMotion = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  function updateTopBtn() {
+    var tall = document.documentElement.scrollHeight > window.innerHeight * 2;
+    topBtn.classList.toggle('is-visible', tall && window.pageYOffset > window.innerHeight);
+  }
+  var ticking = false;
+  window.addEventListener('scroll', function () {
+    if (ticking) return;
+    ticking = true;
+    window.requestAnimationFrame(function () { updateTopBtn(); ticking = false; });
+  }, { passive: true });
+  window.addEventListener('resize', updateTopBtn);
+  window.addEventListener('load', updateTopBtn);
+  topBtn.addEventListener('click', function () {
+    window.scrollTo({ top: 0, behavior: reduceMotion ? 'auto' : 'smooth' });
+    var brand = document.querySelector('.brand');
+    if (brand) brand.focus({ preventScroll: true });
+  });
+
   // Email addresses are stored reversed + base64 so they never appear in the page source
   function decode(s) {
     try { return atob(s).split('').reverse().join(''); } catch (e) { return ''; }
