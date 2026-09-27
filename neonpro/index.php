@@ -67,6 +67,16 @@
       <dt>Email</dt><dd><a class="js-email" data-e="bW9jLmV0aXJ5aEBxZXItb2ZuaQ==" href="#"><span class="email-fallback">email hidden — please enable JavaScript</span></a></dd>
     </dl>
   </section>
+  <section class="office" aria-labelledby="office-us">
+    <div class="office-head"><img src="docc/images/gif3.gif" width="48" height="48" alt="">
+      <div><h3 id="office-us">HLN Illumination Co.</h3><p class="office-sub">USA Office</p></div></div>
+    <dl>
+      <dt>Address</dt><dd>252 South 5th Ave<br>City of Industry, CA 91746<br>USA</dd>
+      <dt>Tel</dt><dd><a href="tel:+16263698782">+1-626-3698782</a></dd>
+      <dt>Fax</dt><dd>+1-626-3698432</dd>
+      <dt>Email</dt><dd><a class="js-email" data-e="bW9jLmV0aXJ5aEBxZXItb2ZuaQ==" href="#"><span class="email-fallback">email hidden — please enable JavaScript</span></a></dd>
+    </dl>
+  </section>
 </div>
 
 <form class="site-search" action="https://www.google.com/search" method="get" target="_blank" role="search">
@@ -87,6 +97,12 @@
       <h2>Headquarters &amp; China Factory</h2>
       <p>Hyrite Lighting Company<br>
       Lianxin South Road, Yundonghai, Sanshui, Foshan, Guangdong, P.R. China 528100</p>
+    </div>
+    <div>
+      <h2>USA Office</h2>
+      <p>HLN Illumination Co.<br>
+      252 South 5th Ave, City of Industry, CA 91746, USA<br>
+      Tel: <a href="tel:+16263698782">+1-626-3698782</a></p>
     </div>
     <div>
       <h2>Get in touch</h2>
