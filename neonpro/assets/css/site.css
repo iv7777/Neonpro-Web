@@ -540,3 +540,15 @@ button, a { -webkit-tap-highlight-color: transparent; }
 .to-top:hover { background: var(--blue-600); }
 @media (min-width: 1024px) { .to-top { right: 28px; bottom: 28px; } }
 @media print { .to-top { display: none; } }
+
+/* spec tables with several models side by side, each with its own block of columns */
+table.spec--grouped td { text-align: center; }
+table.spec--grouped td.grp, table.spec--grouped th + td.grp { border-left: 2px solid #9fb6cb; }
+table.spec--grouped tr:first-child td { font-weight: 700; color: var(--navy-800); background-color: #e6eff7; }
+@media (max-width: 639px) {
+  table.spec--grouped th[scope="row"] { position: sticky; left: 0; z-index: 1; min-width: 118px; max-width: 132px; font-size: 12px; }
+}
+@media (max-width: 639px) {
+  table.spec.spec--grouped { overflow: visible; }
+  table.spec--grouped th[scope="row"] { overflow-wrap: anywhere; box-shadow: 2px 0 0 rgba(11, 34, 57, .15); }
+}
