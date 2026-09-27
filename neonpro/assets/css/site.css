@@ -542,7 +542,6 @@ button, a { -webkit-tap-highlight-color: transparent; }
 @media print { .to-top { display: none; } }
 
 /* spec tables with several models side by side, each with its own block of columns */
-table.spec--grouped td { text-align: center; }
 table.spec--grouped td.grp, table.spec--grouped th + td.grp { border-left: 2px solid #9fb6cb; }
 table.spec--grouped tr:first-child td { font-weight: 700; color: var(--navy-800); background-color: #e6eff7; }
 @media (max-width: 639px) {
