@@ -1,0 +1,21 @@
+# NeonPro website — Apache settings
+
+# Serve index.htm when a visitor opens the bare domain or a folder
+DirectoryIndex index.htm
+
+# Send any address that doesn't exist back to the home page
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule ^ /index.htm [R=302,L]
+</IfModule>
+
+# Let browsers cache files for one hour
+<IfModule mod_expires.c>
+    ExpiresActive On
+    ExpiresDefault "access plus 1 hour"
+</IfModule>
+<IfModule mod_headers.c>
+    Header set Cache-Control "max-age=3600"
+</IfModule>
