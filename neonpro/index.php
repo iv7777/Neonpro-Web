@@ -56,24 +56,14 @@
 <h2 class="section-title">Popular models</h2>
 <div class="quick"><section><h3>Neon Power Supplies</h3><ul><li><a href="docc/Product-Me-120.htm">Me-120-6000-30</a></li><li><a href="docc/Product-NPS-120.htm">NPS-120-6000-30</a></li><li><a href="docc/Product-XPS.htm">XPS-6000-40</a></li><li><a href="docc/Product-NP-DC.htm">NP-15000D-30</a></li></ul></section><section><h3>Neon Tube Electrode</h3><ul><li><a href="docc/Product-Neon-Ele.htm">NE-8MLT</a></li><li><a href="docc/Product-Neon-Ele-2.htm">NE-13SCP</a></li><li><a href="docc/Product-ColdCathode-Ele.htm">NE-18SCL</a></li></ul></section></div>
 
-<h2 class="section-title">Our offices</h2>
+<h2 class="section-title">Contact us</h2>
 <div class="offices">
-  <section class="office" aria-labelledby="office-cn">
-    <div class="office-head"><img src="docc/images/gif1.gif" width="70" height="52" alt=""><h3 id="office-cn">China (Factory)</h3></div>
+  <section class="office" aria-labelledby="office-hq">
+    <div class="office-head"><img src="docc/images/gif1.gif" width="70" height="52" alt="">
+      <div><h3 id="office-hq">Hyrite Lighting Company</h3><p class="office-sub">Headquarters &amp; China Factory</p></div></div>
     <dl>
-      <dt>Address</dt><dd>Junye RD, Shishan Industry Zone C, Shishan, Nanhai, Guangdong, P.R. China 528225 <em>(40 minutes from Guangzhou by car)</em></dd>
-      <dt>Tel</dt><dd><a href="tel:+8675781200188">+86 (757) 81200188</a> (10 lines) — English: extension 335</dd>
-      <dt>Hotline</dt><dd><a href="tel:4006608083">400 660 8083</a></dd>
-      <dt>Fax</dt><dd>+86 (757) 81200369</dd>
-      <dt>Email</dt><dd><a class="js-email" data-e="bW9jLmV0aXJ5aEBxZXItb2ZuaQ==" href="#"><span class="email-fallback">email hidden — please enable JavaScript</span></a><br><a class="js-email" data-e="bW9jLmFuaWhjQGV0aXJ5aA==" href="#"><span class="email-fallback">email hidden — please enable JavaScript</span></a></dd>
-    </dl>
-  </section>
-  <section class="office" aria-labelledby="office-us">
-    <div class="office-head"><img src="docc/images/gif3.gif" width="48" height="48" alt=""><h3 id="office-us">U.S. Office</h3></div>
-    <dl>
-      <dt>Address</dt><dd>252 South 5th Ave, City of Industry, CA 91746, U.S.A.</dd>
-      <dt>Tel</dt><dd><a href="tel:+16263698782">(626) 369-8782</a></dd>
-      <dt>Fax</dt><dd>(626) 369-8432</dd>
+      <dt>Address</dt><dd>Lianxin South Road, Yundonghai,<br>Sanshui, Foshan, Guangdong,<br>P.R. China 528100</dd>
+      <dt>Directions</dt><dd>45 minutes from Guangzhou Baiyun Airport by car.</dd>
       <dt>Email</dt><dd><a class="js-email" data-e="bW9jLmV0aXJ5aEBxZXItb2ZuaQ==" href="#"><span class="email-fallback">email hidden — please enable JavaScript</span></a></dd>
     </dl>
   </section>
@@ -94,19 +84,18 @@
       <p>ISO 9001:2000 certified manufacturer of neon power supplies, electrodes and sign components.</p>
     </div>
     <div>
-      <h2>China</h2>
-      <p>Junye RD, Shishan Industry Zone C, Shishan, Nanhai, Guangdong, P.R. China 528225<br>
-      Tel: <a href="tel:+8675781200188">+86 (757) 81200188</a></p>
+      <h2>Headquarters &amp; China Factory</h2>
+      <p>Hyrite Lighting Company<br>
+      Lianxin South Road, Yundonghai, Sanshui, Foshan, Guangdong, P.R. China 528100</p>
     </div>
     <div>
-      <h2>U.S. Office</h2>
-      <p>252 South 5th Ave, City of Industry, CA 91746, U.S.A.<br>
-      Tel: <a href="tel:+16263698782">(626) 369-8782</a></p>
+      <h2>Get in touch</h2>
+      <p><a href="docc/Contactus.htm">Contact details</a><br>
+      <a href="docc/Feedback.htm">Send us a message</a></p>
     </div>
   </div>
   <div class="container footer-bottom">
     <p>&copy; NeonPro Co. All rights reserved.</p>
-    <p><a href="docc/Contactus.htm">Contact us</a> &middot; <a href="docc/Feedback.htm">Send feedback</a></p>
   </div>
 </footer>
 <script src="assets/js/site.js" defer></script>
