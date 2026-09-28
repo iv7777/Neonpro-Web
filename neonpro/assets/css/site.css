@@ -505,7 +505,7 @@ button, a { -webkit-tap-highlight-color: transparent; }
 .card .card-body .spec { display: block; margin-top: 4px; font-size: 13px; color: var(--muted); font-weight: 400; }
 .cards--products .card img { background: var(--white); padding: 6px; }
 
-/* home: shop by category */
+/* home: browse by category */
 .shop-cats { display: grid; gap: 10px; grid-template-columns: repeat(auto-fill, minmax(min(100%, 220px), 1fr)); }
 .shop-cats a {
   display: flex; flex-direction: column; gap: 2px; padding: 14px 16px; border: 1px solid var(--line);
