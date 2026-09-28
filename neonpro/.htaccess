@@ -3,12 +3,24 @@
 # Serve index.htm when a visitor opens the bare domain or a folder
 DirectoryIndex index.htm
 
-# Send any address that doesn't exist back to the home page
+# Show our own "page not found" page for addresses that don't exist
+ErrorDocument 404 /404.htm
+
 <IfModule mod_rewrite.c>
     RewriteEngine On
-    RewriteCond %{REQUEST_FILENAME} !-f
-    RewriteCond %{REQUEST_FILENAME} !-d
-    RewriteRule ^ /index.htm [R=302,L]
+
+    # neonpro.com is the only public address. Send the old neonpro.hyrite.com
+    # address and www.neonpro.com to the same page on https://neonpro.com
+    RewriteCond %{HTTP_HOST} ^(neonpro\.hyrite\.com|www\.neonpro\.com)$ [NC]
+    RewriteRule ^ https://neonpro.com%{REQUEST_URI} [R=301,L]
+
+    # Always use https (the second line avoids a loop behind a proxy or CDN)
+    RewriteCond %{HTTPS} off
+    RewriteCond %{HTTP:X-Forwarded-Proto} !https
+    RewriteRule ^ https://neonpro.com%{REQUEST_URI} [R=301,L]
+
+    # Old duplicate home pages point to the home page
+    RewriteRule ^(index\.php|docc/?|docc/index\.htm)$ / [R=301,L]
 </IfModule>
 
 # Let browsers cache files for one hour

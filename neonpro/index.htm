@@ -3,8 +3,9 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="canonical" href="https://neonpro.com/">
 <title>NeonPro Co. — Neon Power Supplies, Electrodes &amp; Sign Components</title>
-<meta name="description" content="NeonPro Co. is an ISO 9001:2000 certified manufacturer of electronic neon power supplies, neon transformers, neon electrodes, tubing and sign accessories.">
+<meta name="description" content="NeonPro Co. is an ISO 9001:2015 certified manufacturer of electronic neon power supplies, neon transformers, neon electrodes, tubing and sign accessories.">
 <meta name="keywords" content="me-120, me-120-12000-30, me-120-9000-30, me-120-6000-30, me-120-3000-30, neonpro, neon transformer, neon power supply, electrode, neon tubing, rare gases, HT cable, electrode cover, neon tube support, neon testing tools, neon signs">
 <meta name="theme-color" content="#0b2239">
 <link rel="icon" href="assets/img/favicon.png" type="image/png">
@@ -43,7 +44,7 @@
   <main id="main" class="content">
 <section class="hero">
   <h1>Neon power supplies, electrodes &amp; sign components</h1>
-  <p>NeonPro Co. is an ISO 9001:2000 certified manufacturer producing over 3,000,000 UL, CSA, CE and RoHS approved power supplies, and 20,000,000 neon electrodes every year.</p>
+  <p>NeonPro Co. is an ISO 9001:2015 certified manufacturer producing over 3,000,000 UL, CSA, CE and RoHS approved power supplies, and 20,000,000 neon electrodes every year.</p>
   <div class="actions">
     <a class="btn" href="docc/Products.htm">Browse products</a>
     <a class="btn btn--ghost" href="docc/Contactus.htm">Contact us</a>
@@ -81,7 +82,7 @@
 
 <form class="site-search" action="https://www.google.com/search" method="get" target="_blank" role="search">
   <label for="q">Search this site with Google</label>
-  <input type="hidden" name="sitesearch" value="neonpro.hyrite.com">
+  <input type="hidden" name="sitesearch" value="neonpro.com">
   <input type="search" id="q" name="q" placeholder="e.g. Me-120, electrode, HT cable">
   <button class="btn" type="submit">Search</button>
 </form>
@@ -91,7 +92,7 @@
   <div class="container footer-inner">
     <div class="footer-brand">
       <img src="assets/img/neonpro-logo.png" width="160" height="32" alt="NeonPro">
-      <p>ISO 9001:2000 certified manufacturer of neon power supplies, electrodes and sign components.</p>
+      <p>ISO 9001:2015 certified manufacturer of neon power supplies, electrodes and sign components.</p>
     </div>
     <div>
       <h2>Headquarters &amp; China Factory</h2>
@@ -111,7 +112,7 @@
     </div>
   </div>
   <div class="container footer-bottom">
-    <p>&copy; NeonPro Co. All rights reserved.</p>
+    <p>&copy; Hyrite Lighting Company, doing business as NeonPro. All rights reserved.</p>
   </div>
 </footer>
 <script src="assets/js/site.js" defer></script>

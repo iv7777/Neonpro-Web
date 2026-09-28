@@ -1,5 +1,3 @@
 User-agent: *
 Allow: /
-Sitemap: https://neonpro.hyrite.com/sitemap.xml
-
-
+Sitemap: https://neonpro.com/sitemap.xml
